@@ -1,0 +1,15 @@
+1) Which field of the Customers table is the primary key?
+Ans-CNUM column having all unique values so primary key for customers table is CNUM.
+
+2) What is the 4th column of the Customers table?
+Ans-:Rating is the 4th column of Customers Table.
+
+3) What is another word for row? For column?
+Ans-:Tuple/Entity/Opportunity are the another names for Row
+   -:Filed/Attribute/Method is another name for column,
+
+4) Why isn’t it possible to see the first five rows of a table?
+Ans-:In RDBMS each row is stored as indivisual file and it stores randomly at any location wherever free space available in Server HD.
+   -:the searching is done on server HD as Top to Botoom and Left to Right So When we fire Query for accessing rows it fetchtes in Ram as first come first serve basis.
+   -:That's why we don't get first five rows.
+  
