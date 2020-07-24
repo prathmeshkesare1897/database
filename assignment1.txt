@@ -2,7 +2,7 @@
 
 
 
-create table SALESPERSON(
+create table SALESPEOPLE(
 				Snum int(4),
 				Sname varchar(10),
 				City varchar(10),
