@@ -1,7 +1,7 @@
 1.
-
-select * from orders where cnum = 
-(select cnum from customers where cname ='Cisneros');
+select onum,cnum
+from orders where cnum=
+(select cnum from customers where cname='cisneros');
 ===========================================================
 
 
